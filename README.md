@@ -19,8 +19,8 @@ After completing this lab, your Course, Department and Registration classes will
 <a href="Integration testing - Wikipedia, the free encyclopedia">Integration testing</a> tests how your models interact with each other.
 In order for the integration tests to pass completely, you will need to build methods that relate Course and Student to Department. They will go in the Course and Student classes.
 
-###Department 
-```ruby 
+###Department
+```ruby
 def course
   #find all courses by department_id
 end
@@ -30,19 +30,19 @@ def add_course(course)
 end
 ```
 
-###Course 
+###Course
 
 ```ruby
 def department
   #successfully gets department
 end
- 
+
 def department=(department)
   #set department id when deparment is set
 end
 ```
 
-```ruby 
+```ruby
 def students
   #find all students by department_id
 end
@@ -56,4 +56,3 @@ end
 * [Object Relational Mapper](http://en.wikipedia.org/wiki/Object-relational_mapping)
 * [SQL Joins](http://www.sql-join.com/)
 * [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
-
